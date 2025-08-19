@@ -1,0 +1,6 @@
+
+RewriteOptions inherit
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^sharcoenterprises\.com$ "https\:\/\/sharcoenterprises\.com\/" [R=301,L]
